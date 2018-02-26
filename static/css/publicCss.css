@@ -1,0 +1,507 @@
+.f-l{float: left;}
+.f-r{float: right;}
+.f12{font-size:12px;}
+.c-008{color:#008ac3;}
+.c-000{color:#000;}
+.clear{clear: both;}
+.inline{display: inline-block;*display:inline;}
+.c-8fc{color: #8fc31f;}
+.c-868{color: #868686;}
+
+
+.login{
+	width: 100%;
+	background:url(../images/login.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-ms-background-size: cover;
+	position: relative;
+}
+.login-content{
+	width:300px;
+	position: absolute;
+	top: 0;
+	right: 10%;
+}
+.login-caption{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 20px;
+	color: #FFF;
+	letter-spacing: 3px;
+}
+.login-room{
+	width: auto;
+	background-color: #fff;
+	padding: 30px 20px;	
+}
+.login-user{
+	color: #000;
+	font-size: 14px;
+	padding-bottom:10px ;
+}
+.login-form ul li{
+	margin-bottom:16px ;
+}
+.login-next{
+	display: block;
+	width: 100%;
+}
+.login-form ul li .input{
+	padding:8px 0 8px 5px;
+	width: 96%;
+}
+.login-form .submit{
+	border:none;
+	display: block;
+	background-color: #e1deb3;
+	color:#FFF;
+	font-size: 14px;
+	margin-top:10px ;
+	cursor: pointer;
+	text-align: center;
+}
+
+/*会议室预约页面的设置*/
+.header{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background-color: #e1deb3;
+	margin-bottom:10px;
+}
+.header>h1{
+	font-size:22px;
+	color: #FFF;
+	padding-left:20px ;
+}
+.container{
+	width: 100%;
+	height: auto;
+}
+.app_container{
+	width:1330px ;
+	position: relative;
+}
+.container-left{
+	width:180px;
+	background-color:#a8d7de;
+	position: relative;
+}
+.container-line{
+	width:0;
+	height: 500px;
+	border:1px solid #c9c9c9;
+	position: absolute;
+	left: 200px;
+}
+
+.container-left ul li{
+	padding:16px 0 ;
+	text-align: center;
+	font-size: 16px;
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+}
+.container-left ul li:hover{
+	background:rgba(0,0,0,0.1);
+}
+.container-left ul li.active{
+	background-color:#e1deb3;
+}
+.container-left ul li a{
+	color: #FFF;
+}
+.sign-out-text{
+	width: 100%;
+	text-align: center;
+}
+.sign-out{
+	display: block;
+	width: 100%;
+	padding:16px 0;
+	font-size: 16px;
+	color: #FFF;	
+}
+.sign-out:hover{
+	background:rgba(0,0,0,0.1);
+}
+.container-right{
+	width:1100px ;
+	height: auto;
+}
+
+.my-reservation{
+	width: 100%;
+	height: auto;
+}
+.reservation-title{
+	color: #007c8e;
+	font-size:16px;
+	padding-bottom:20px;
+	border-bottom:2px solid #8fc31f;
+}
+.news-reservation-title{
+	font-size:14px;
+	color: #5b95a4;
+	padding:20px 0 ;
+}
+.news-reservation-ul{
+	width: 100%;
+	height: auto;
+}
+.news-reservation-ul li{
+	width:auto;
+	height: ;
+	padding:30px 20px;
+	border: 1px solid #c9c9c9;
+	margin-bottom:20px ;
+}
+.news-reservation-ul li:last-child{
+	margin-bottom:0px;
+}
+
+.news-detailed-top{
+	color: #000;
+	font-size: 14px;
+	margin-bottom:10px ;
+}
+
+.news-detailed-top>div{
+	margin-right:80px;
+}
+.news-detailed-top>div:last-child{
+	margin-right:0;
+}
+.news-detailed-bottom{
+	font-size: 14px;
+}
+.news-detailed-list{
+	width:198px ;
+	position: relative;
+}
+.icon{
+	display: inline-block;
+	*display: inline;
+	font-size:20px ;
+	padding-right:10px;
+}
+.news-detailed-text{
+	width: auto;
+	position: absolute;
+	top:3px;
+}
+.line{
+	display: inline-block;
+	*display: inline;
+	width: 100px;
+	border-bottom: 1px solid #8fc31f;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.no-line{
+	display: inline-block;
+	*display: inline;
+	width: 100px;
+	border-bottom: 1px solid #868686;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.news-detailed-right{
+	margin-top:12px ;
+}
+.news-detailed-right>a{
+	padding: 6px 10px;
+	background-color:#8fc31f ;
+	font-size: 14px;
+	color: #FFF;
+	margin-right:10px ;
+}
+
+.reservation-content{
+	padding-top:20px ;
+}
+.reservation-choice-date{
+	font-size:16px;
+	color: #000000;
+	margin-right:40px ;
+}
+.reservation-choice-span{
+	padding-right:10px ;
+}
+.choice-input{
+	border:1px solid #c9c9c9;
+	padding:6px 0 6px 10px;
+	width: 160px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.choice-select{
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  border:1px solid #c9c9c9;
+  padding:3px 0 3px 5px;
+  width: 100px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+}
+.choice-query{
+	color: #FFF;
+	background-color:#8fc31f;
+	padding: 3px 12px;
+	border-radius:5px;
+  -webkit-border-radius:5px;
+}
+.reservation-choice-seach{
+	padding-top:20px;
+}
+
+.reservation-details-choice{
+	width: 260px;
+	padding:0 20px;
+	height: 44px;
+	line-height:44px ;
+	color: #FFF;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size:14px ;
+}
+
+
+/*预约设置*/
+#make-reservation{
+	width: 100%;
+	padding-top:20px;
+}
+.make-reservation-left{
+	width: 320px;
+	height: auto;
+}
+.make-reservation-left-con{
+	width:100%;
+}
+.make-reservation-left-con img{
+	width:100% ;
+}
+.make-reservation-left-txet{
+	border: 1px solid #a8d7de;
+	width: 298px;
+	padding:10px 0 10px 20px;
+	border-top: none;
+	color: #000;
+	font-size: 14px;
+}
+.make-reservation-left-txet>p{
+	line-height: 200%;
+}
+
+.make-reservation-right{
+	width:740px;
+}
+.make-reservation-right-title{
+	color: #000;
+	font-size: 16px;
+	padding-bottom:20px ;
+	border-bottom: 1px solid #d2d2d2;
+}
+.make-reservation-right-form-ul{
+	width:600px ;
+}
+.make-reservation-right-form-ul li{
+	float: left;
+	margin:10px 28px 10px 10px;
+}
+.make-reservation-right-form-ul li:nth-of-type(2n){
+	margin-right:0 ;
+}
+.make-reservation-right-form-ul li:last-of-type{
+	margin-bottom:20px ;
+	margin-right: 0;
+}
+.make-reservation-from-text{
+	width: 110px;
+	font-size: 14px;
+	color: #000;	
+}
+.make-reservation-input{
+	padding: 6px 0;
+	width: 160px;
+	border: 1px solid #d2d2d2;
+}
+.textarea{
+	resize: none;
+	width:474px;
+	height: 80px;
+	border: 1px solid #d2d2d2;
+}
+.checkbox-text-p{
+	padding:16px 0 26px 0;
+	color: #000;
+	font-size:14px ;
+}
+.checkbox-text-p>layer{
+	margin-right:60px ;
+}
+.textarea-lg{
+	margin-top:20px ;
+	resize: none;
+	width:100%;
+	height: 80px;
+	border: 1px solid #d2d2d2
+}
+.make-reservation-submi{
+	padding-top: 20px;
+	text-align: center;
+}
+.make-reservation-submi>a{
+	display: inline-block;
+	padding: 6px 16px;
+	background-color: #c9c9c9;
+	color: #FFF;
+	font-size:14px;
+	margin-right:20px ;
+}
+.make-reservation-submi>a.active{
+	background-color: #8fc31f;
+}
+
+/*预约详情页*/
+.reservation-details-list{
+	width: 100%;
+}
+.reservation-details-list-title{
+	font-size: 14px;
+	height: 46px;
+	width: 100%;
+	background-color:#00baff;
+	line-height: 46px;
+	color: #FFF;
+	text-align: center;
+}
+
+.reservation-details-one{
+	width:100%;
+	height: auto;
+}
+.reservation-details-two{
+	width: 980px;
+}
+.reservation-details-one-ul{
+	width:100%;
+}
+.reservation-details-one-ul li{
+	width: 300px;
+	height: auto;
+	float:left;
+	margin-right:30px;
+}
+.reservation-details-one-ul li:nth-of-type(3n){
+	margin-right:0;
+}
+.reservation-details-one-ul li>a{
+	display: block;
+	width:100%;
+	height: 100%;	
+}
+.reservation-details-one-img{
+	width:100%;
+	height: 100%;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow:3px 3px 6px rgba(0,0,0,0.5);
+	-moz-box-shadow:3px 3px 6px rgba(0,0,0,0.5);
+	-webkit-box-shadow:3px 3px 6px rgba(0,0,0,0.5);
+	-ms-box-shadow:3px 3px 6px rgba(0,0,0,0.5);
+	position:relative;
+}
+.reservation-details-one-img img{
+	width:100%;
+	height:auto;
+}
+.reservation-details-prompt{
+	width: 100%;
+	height: 44px;
+	line-height:44px ;
+	color: #FFF;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-size:14px ;
+}
+.reservation-details-one-text{
+	padding:16px 0;
+	color:#242424;
+	font-size:14px ;
+}
+.reservation-details-one-text>p{
+	line-height:200% ;
+}
+
+.reservation-details-page{
+	width: 100%;
+	text-align: center;	
+}
+.reservation-page-num{
+	display: inline-block;
+	*display: inline;
+	padding:9px 12px;
+	background-color:#c9c9c9 ;
+	color: #FFF;
+	font-size:16px;
+	margin-right:16px;
+}
+.reservation-page-num.num-active{
+	background-color:#8fc31f;
+}
+/*会议室详情页*/
+.reservation-details-list-table{
+	width:100%;
+}
+.public-list-table{
+	border: none;
+}
+.public-list-table-one{
+	height:40px;
+	line-height:40px;
+	background-color:#dfdddd;
+}
+.public-list-table-one th{
+	color: #000000;
+	font-size:14px;
+	border: 1px solid #FFF;
+}
+.public-list-table-two{
+	height:74px;
+	background-color:#9fdfe8;
+	text-align: center;
+}
+.public-list-table-two td{
+	color: #000000;
+	font-size:14px;
+	border: 1px solid #FFF;
+}
+/*已经预约的class*/
+.public-list-table-two .already{
+	background-color:#fb0909;
+	color:#FFF;
+}
+.public-list-table-two .already p{
+	line-height: 140%;
+}
+/*没有预约的class*/
+.public-list-table-two .no-already{
+	background-color:#adde45;
+}
+/*剩余的预约class*/
+.public-list-table-two .surplus{
+	background-color:#fff600;
+}
